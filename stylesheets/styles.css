@@ -1,0 +1,152 @@
+/*@import url('http://fonts.googleapis.com/css?family=Engelbert');
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('http://fonts.googleapis.com/css?family=Alice');*/
+
+body{
+	background-color: #ccc;
+	font-family: Engelbert, Helvetica, Arial, console;
+}
+	
+p, h6,h5,h4,h3,h2,h1{
+	font-family: Engelbert, Helvetica, Arial;
+}
+	
+h1, h2{
+	color: #333;
+	font-family: "Alice", Helvetica, Arial;
+}
+	
+h3,h4{
+	color: #360;
+}
+	
+h1{
+	font-size: larger;
+	font-weight: 900;
+}
+	
+h2{
+	font-size: large;
+	font-weight: 800;
+}
+	
+h3{
+	font-size:large;
+	font-weight: 400;
+}
+	
+h4{
+	font-size:normal;
+	font-weight: 300;
+}
+	
+p, li{
+	color:#666;
+	font-size: small;
+	font-weight: 300;
+}
+	
+
+	
+header, nav, section, footer{
+	width: 80%;
+	padding: 30px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px;
+}
+	
+header{
+	background-color:#fff;
+	color:#ccc;
+	border: groove;
+}
+	
+nav{
+	background: linear-gradient(#ccc,#ddd)	
+}
+
+nav ul{
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;
+}
+
+nav a{
+	text-decoration: none;
+	text-underline: none;
+	color: #666;
+}
+
+nav li{
+	display: inline;
+	border: solid 1px;
+	border-radius: 3px;
+	background: linear-gradient(#eee,#ccc);
+	box-shadow: 2px 2px 3px;
+	padding: 0 10px;
+}
+
+section{
+	background: linear-gradient(#eee, #ccc);
+}
+
+code, pre {
+	font-family: 'source sans pro'
+}
+img, iframe{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px;
+	border-style:ridge;
+	border-radius: 1px;
+	border-color: #002751;
+	
+}
+
+.logo {
+	float:left;
+}
+
+img.logo{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #002751;
+}
+
+.wrapper {
+	width: 80%;
+	padding:0;
+	margin:0;
+	background-color: #eee;
+	border-radius: 10px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+#sidebarl{
+	float:left;
+	width:20em;
+	
+}
+
+#sidebarr{
+	float:right;
+	width:20em;
+	
+}
+
+#maincontent{
+	width:auto;
+}
