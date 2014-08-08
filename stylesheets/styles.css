@@ -1,6 +1,6 @@
-/*@import url('http://fonts.googleapis.com/css?family=Engelbert');
+@import url('http://fonts.googleapis.com/css?family=Engelbert');
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro');
-@import url('http://fonts.googleapis.com/css?family=Alice');*/
+@import url('http://fonts.googleapis.com/css?family=Alice');
 
 body{
 	background-color: #ccc;
@@ -44,6 +44,7 @@ p, li{
 	color:#666;
 	font-size: small;
 	font-weight: 300;
+    
 }
 	
 
@@ -66,7 +67,11 @@ header{
 }
 	
 nav{
-	background: linear-gradient(#ccc,#ddd)	
+	background: linear-gradient(#ccc,#ddd)
+    margin-top:0;
+    margin-bottom:5px;
+    padding-top:2px;
+    padding-bottom:2px;
 }
 
 nav ul{
@@ -126,6 +131,8 @@ img.logo{
 	margin:0;
 	background-color: #eee;
 	border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .clearfloat {
 	clear:both;
@@ -135,18 +142,8 @@ img.logo{
 }
 
 
-#sidebarl{
-	float:left;
-	width:20em;
-	
-}
-
-#sidebarr{
-	float:right;
-	width:20em;
-	
-}
-
 #maincontent{
 	width:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
