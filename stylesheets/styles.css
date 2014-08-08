@@ -44,12 +44,12 @@ p, li{
 	color:#666;
 	font-size: small;
 	font-weight: 300;
-    
+    line-height:1.5;
 }
 	
 
 	
-header, nav, section, footer{
+header, nav,footer{
 	width: 80%;
 	padding: 30px 20px;
 	margin-left: auto;
@@ -97,7 +97,8 @@ nav li{
 }
 
 section{
-	background: linear-gradient(#eee, #ccc);
+	background:#eee;
+    border-bottom-style:groove;
 }
 
 code, pre {
